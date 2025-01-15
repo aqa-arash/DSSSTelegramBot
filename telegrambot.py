@@ -1,5 +1,3 @@
-# write a simple telegram bot that can receive and send messages
-
 import telepot
 from telepot.loop import MessageLoop
 import time
