@@ -4,7 +4,7 @@ import time
 from mistralai import Mistral
 
 
-api_key = "J1O6QETslnj2oY5qUQXI82BtU4PFKRGN"
+api_key = "Key here"
 model = "mistral-small-2402"
 client = Mistral(api_key=api_key)
 
@@ -23,7 +23,7 @@ def handle(msg):
     )
     bot.sendMessage(chat_id, chat_response.choices[0].message.content)
 
-bot = telepot.Bot('8027645039:AAFessdEP0BEk0THGOHwtuFtCU26CHnfm2o')
+bot = telepot.Bot('Bot key here ')
 MessageLoop(bot, handle).run_as_thread()
 
 while True:
